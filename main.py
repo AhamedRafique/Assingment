@@ -222,8 +222,8 @@ uri = "mongodb+srv://Raas1:Raas0@raas.cb1ezfm.mongodb.net/"
 client = MongoClient(uri, server_api=ServerApi("1"))
 
 ##The database name and collection credentials will be stored in
-db = client["Assignment"]
-collection = db["Raas"]
+db = client["Raas"]
+collection = db["Assignment"]
 
 ##checking for the data base connectivity 
 try:
